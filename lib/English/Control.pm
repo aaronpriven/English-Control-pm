@@ -120,9 +120,10 @@ for its own use, and don't clutter your regular namespace.
 For those variables that have an B<awk> version, both long
 and short English alternatives are provided.  For example, 
 the C<$/> variable can be referred to either $^{RS} or 
-${INPUT_RECORD_SEPARATOR} if you are using the English module.
+${INPUT_RECORD_SEPARATOR} if you are using this module.
 
-See L<perlvar> for a complete list of these.
+See L<perlvar> for a complete list of these. Except for $MATCH, $PREMATCH,
+and $POSTMATCH, all the multi-character names are used.
 
 Since control-character variables are forced to be in package main, nothing
 is imported into the caller's namespace, and the control-character aliases 
@@ -144,6 +145,11 @@ are provided by perl itself in more recent versions.
 =head1 AUTHOR
 
 Aaron Priven <apriven@actransit.org>
+
+=head1 BASED ON
+
+English::Control is a pretty simple fork of 
+L<English|English> from the Perl 5 distribution.
 
 =head1 COPYRIGHT & LICENSE
 
