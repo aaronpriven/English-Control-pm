@@ -22,9 +22,10 @@ for its own use, and don't clutter your regular namespace.
 For those variables that have an **awk** version, both long
 and short English alternatives are provided.  For example, 
 the `$/` variable can be referred to either $^{RS} or 
-${INPUT\_RECORD\_SEPARATOR} if you are using the English module.
+${INPUT\_RECORD\_SEPARATOR} if you are using this module.
 
-See [perlvar](https://metacpan.org/pod/perlvar) for a complete list of these.
+See [perlvar](https://metacpan.org/pod/perlvar) for a complete list of these. Except for $MATCH, $PREMATCH,
+and $POSTMATCH, all the multi-character names are used.
 
 Since control-character variables are forced to be in package main, nothing
 is imported into the caller's namespace, and the control-character aliases 
@@ -46,6 +47,11 @@ are provided by perl itself in more recent versions.
 # AUTHOR
 
 Aaron Priven <apriven@actransit.org>
+
+# BASED ON
+
+English::Control is a pretty simple fork of 
+[English](https://metacpan.org/pod/English) from the Perl 5 distribution.
 
 # COPYRIGHT & LICENSE
 
