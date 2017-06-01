@@ -50,7 +50,7 @@ and
     versions of perl. The aliases ${^PREMATCH}, ${MATCH}, and ${^POSTMATCH}
     are provided by perl itself in more recent versions.
 
-#AUTHOR
+# AUTHOR
 
 Aaron Priven <apriven@actransit.org>
 
