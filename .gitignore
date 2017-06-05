@@ -29,3 +29,5 @@ cover_db/
 MYMETA.*
 
 /English-Control-*
+
+.project
