@@ -99,7 +99,7 @@ English::Control - use names beginning with control for punctuation variables
 
 =head1 VERSION
 
-This document refers to version 0.001
+This document refers to version 0.001_001
 
 =head1 SYNOPSIS
 
