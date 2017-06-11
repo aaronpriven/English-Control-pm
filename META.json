@@ -4,13 +4,13 @@
       "Aaron Priven <apriven@actransit.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v3.0.11, CPAN::Meta::Converter version 2.150005",
+   "generated_by" : "Minilla/v3.0.11, CPAN::Meta::Converter version 2.150010",
    "license" : [
       "gpl_1"
    ],
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
-      "version" : "2"
+      "version" : 2
    },
    "name" : "English-Control",
    "no_index" : {
@@ -67,5 +67,5 @@
    "x_contributors" : [
       "Aaron Priven <aaron@priven.com>"
    ],
-   "x_serialization_backend" : "JSON::PP version 2.27300_01"
+   "x_serialization_backend" : "JSON::PP version 2.94"
 }
