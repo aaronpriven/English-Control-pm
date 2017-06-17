@@ -4,7 +4,7 @@ English::Control - use names beginning with control for punctuation variables
 
 # VERSION
 
-This document refers to version 0.001\_001
+This document refers to version 0.002
 
 # SYNOPSIS
 

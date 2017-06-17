@@ -3,7 +3,7 @@ use 5.008001;
 use strict;
 use warnings;
 
-our $VERSION = "0.001_001";
+our $VERSION = "0.002";
 $VERSION = eval $VERSION;
 
 *{^ARG} = *_;
@@ -100,7 +100,7 @@ English::Control - use names beginning with control for punctuation variables
 
 =head1 VERSION
 
-This document refers to version 0.001_001
+This document refers to version 0.002
 
 =head1 SYNOPSIS
 
