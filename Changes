@@ -2,6 +2,8 @@ Revision history for Perl extension English-Control
 
 {{$NEXT}}
 
+    - Correct machine-readable license
+
 0.002 2017-06-17T03:37:46Z
 
     - first non-alpha release
